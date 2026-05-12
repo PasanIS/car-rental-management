@@ -3,6 +3,7 @@ package com.devstack.POS.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.util.List;
 import java.util.UUID;
 
 @Getter
@@ -26,4 +27,7 @@ public class Product {
 
     @Column(name = "qty_on_hand")
     private Integer qtyOnHand;
+
+    @OneToMany(mappedBy = "customerOrder", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private List<OrderDetails> detailsList;
 }
