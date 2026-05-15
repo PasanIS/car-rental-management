@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70366dbc-fb28-4f05-84ca-c4600394f486" name="Changes" comment="add spring-boot-starter-validation dependency to pom.xml; update workspace settings">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" afterDir="false" />
+    <list default="true" id="70366dbc-fb28-4f05-84ca-c4600394f486" name="Changes" comment="refactor Customer entity to use UUID for id; add validation annotations to CustomerRequestDTO; create ProductRequestDTO with validation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POS/src/main/java/com/devstack/POS/dto/request/CustomerRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/POS/src/main/java/com/devstack/POS/dto/request/CustomerRequestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POS/src/main/java/com/devstack/POS/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/POS/src/main/java/com/devstack/POS/entity/Customer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778817806931</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="refactor Customer entity to use UUID for id; add validation annotations to CustomerRequestDTO; create ProductRequestDTO with validation">
+      <option name="closed" value="true" />
+      <created>1778820109905</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1778820109905</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +252,8 @@
     <MESSAGE value="add logging configuration and data source history; update compiler and workspace settings" />
     <MESSAGE value="add CustomerRequestDTO class with fields for name, address, and salary; update workspace settings" />
     <MESSAGE value="add spring-boot-starter-validation dependency to pom.xml; update workspace settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="add spring-boot-starter-validation dependency to pom.xml; update workspace settings" />
+    <MESSAGE value="refactor Customer entity to use UUID for id; add validation annotations to CustomerRequestDTO; create ProductRequestDTO with validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor Customer entity to use UUID for id; add validation annotations to CustomerRequestDTO; create ProductRequestDTO with validation" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
