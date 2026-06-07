@@ -17,15 +17,15 @@ public class OrderDetails {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
-    @Column(name = "order_details_id")
+    @Column(name = "order_details_id", columnDefinition = "BINARY(16)")
     private UUID id;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "order_id")
+    @JoinColumn(name = "order_id", columnDefinition = "BINARY(16)")
     private CustomerOrder customerOrder;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "product_id")
+    @JoinColumn(name = "product_id", columnDefinition = "BINARY(16)")
     private Product product;
 
     @Column(name = "unit_price")

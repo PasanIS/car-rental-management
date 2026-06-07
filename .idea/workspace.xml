@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70366dbc-fb28-4f05-84ca-c4600394f486" name="Changes" comment="refactor Customer entity to use UUID for id; add validation annotations to CustomerRequestDTO; create ProductRequestDTO with validation">
+    <list default="true" id="70366dbc-fb28-4f05-84ca-c4600394f486" name="Changes" comment="add CustomerOrderRequestDTO and OrderDetailsRequestDTO classes with validation annotations">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,12 +18,20 @@
   <component name="CopilotChats">
     <option name="panelChat">
       <chat>
-        <option name="activeSessionId" value="18c0db16-7880-4f4f-9a48-b4e561193ec8" />
+        <option name="activeSessionId" value="6a97a3c2-8f9a-45d6-a453-8885d3c5673c" />
         <option name="sessions">
           <session>
             <option name="chatType" value="PANEL" />
             <option name="id" value="18c0db16-7880-4f4f-9a48-b4e561193ec8" />
             <option name="modeId" value="Ask" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="6a97a3c2-8f9a-45d6-a453-8885d3c5673c" />
+            <option name="modeId" value="Agent" />
             <option name="modelType" value="builtin_family" />
             <option name="modelValue" value="auto" />
             <option name="targetType" value="LOCAL" />
@@ -33,6 +44,8 @@
   <component name="CopilotPersistence">
     <persistenceIdMap>
       <entry key="_C:/Pasan/DevStack/POS" value="3DDdh0wzJZZ2akeP55TRFSaF4pQ" />
+      <entry key="_C:/Pasan/DevStack/POS/POS" value="3DkNYmvdPEQV1b90t59Vcfkj2Xm" />
+      <entry key="_C:/Pasan/DevStack/POS/POS/src/test" value="3DkOhsxNzB7LPUw5sq5Ri8F4UNO" />
     </persistenceIdMap>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -94,6 +107,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHELLCHECK.PATH": "C:\\Users\\User\\AppData\\Roaming\\JetBrains\\IntelliJIdea2026.1\\plugins\\Shell Script\\shellcheck.exe",
     "Spring Boot.PosApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
@@ -110,7 +124,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "to.speed.mode.migration.done": "true"
   },
   "keyToStringList": {
@@ -226,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778820109905</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add CustomerOrderRequestDTO and OrderDetailsRequestDTO classes with validation annotations">
+      <option name="closed" value="true" />
+      <created>1778821509630</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1778821509630</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +275,8 @@
     <MESSAGE value="add CustomerRequestDTO class with fields for name, address, and salary; update workspace settings" />
     <MESSAGE value="add spring-boot-starter-validation dependency to pom.xml; update workspace settings" />
     <MESSAGE value="refactor Customer entity to use UUID for id; add validation annotations to CustomerRequestDTO; create ProductRequestDTO with validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor Customer entity to use UUID for id; add validation annotations to CustomerRequestDTO; create ProductRequestDTO with validation" />
+    <MESSAGE value="add CustomerOrderRequestDTO and OrderDetailsRequestDTO classes with validation annotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="add CustomerOrderRequestDTO and OrderDetailsRequestDTO classes with validation annotations" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

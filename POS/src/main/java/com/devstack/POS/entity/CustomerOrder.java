@@ -18,11 +18,11 @@ public class CustomerOrder {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
-    @Column(name = "order_id")
+    @Column(name = "order_id", columnDefinition = "BINARY(16)")
     private UUID orderId;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "customer_id")
+    @JoinColumn(name = "customer_id", columnDefinition = "BINARY(16)")
     private Customer customer;
 
     @Column(name = "total_cost")

@@ -17,7 +17,7 @@ public class Product {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
-    @Column(name = "product_id")
+    @Column(name = "product_id", columnDefinition = "BINARY(16)")
     private UUID id;
 
     private String description;
