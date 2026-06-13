@@ -1,7 +1,6 @@
 package com.devstack.POS.entity;
 
 import jakarta.persistence.*;
-import jdk.jshell.Snippet;
 import lombok.*;
 
 import java.util.List;

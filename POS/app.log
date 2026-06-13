@@ -1,22 +1,30 @@
-2026-06-12T10:38:13.785+05:30  INFO 13608 --- [POS] [restartedMain] com.devstack.POS.PosApplication          : Starting PosApplication using Java 21.0.11 with PID 13608 (C:\Pasan\DevStack\POS\POS\target\classes started by User in C:\Pasan\DevStack\POS\POS)
-2026-06-12T10:38:13.790+05:30 DEBUG 13608 --- [POS] [restartedMain] com.devstack.POS.PosApplication          : Running with Spring Boot v4.0.6, Spring v7.0.7
-2026-06-12T10:38:13.791+05:30  INFO 13608 --- [POS] [restartedMain] com.devstack.POS.PosApplication          : The following 1 profile is active: "dev"
-2026-06-12T10:38:13.834+05:30  INFO 13608 --- [POS] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-06-12T10:38:13.835+05:30  INFO 13608 --- [POS] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-06-12T10:38:14.345+05:30  INFO 13608 --- [POS] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-06-12T10:38:14.399+05:30  INFO 13608 --- [POS] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 4 JPA repository interfaces.
-2026-06-12T10:38:14.790+05:30  INFO 13608 --- [POS] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
-2026-06-12T10:38:14.802+05:30  INFO 13608 --- [POS] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-12T10:38:14.803+05:30  INFO 13608 --- [POS] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
-2026-06-12T10:38:14.833+05:30  INFO 13608 --- [POS] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 998 ms
-2026-06-12T10:38:14.968+05:30  INFO 13608 --- [POS] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-06-12T10:38:15.042+05:30  INFO 13608 --- [POS] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
-2026-06-12T10:38:15.418+05:30  INFO 13608 --- [POS] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-06-12T10:38:15.446+05:30  INFO 13608 --- [POS] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-06-12T10:38:15.900+05:30  INFO 13608 --- [POS] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e42607c
-2026-06-12T10:38:15.902+05:30  INFO 13608 --- [POS] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-06-12T10:38:15.998+05:30  WARN 13608 --- [POS] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-06-12T10:38:16.017+05:30  INFO 13608 --- [POS] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-06-13T12:53:27.737+05:30  WARN 20700 --- [POS] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20h24m42s229ms971µs100ns).
+2026-06-13T15:31:16.375+05:30  WARN 20700 --- [POS] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h22m48s424ms541µs600ns).
+2026-06-13T16:09:42.285+05:30  WARN 20700 --- [POS] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m25s853ms17µs400ns).
+2026-06-13T16:19:47.955+05:30  INFO 20700 --- [POS] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-13T16:19:47.960+05:30  INFO 20700 --- [POS] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-13T16:19:47.966+05:30  INFO 20700 --- [POS] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-13T16:19:47.969+05:30  INFO 20700 --- [POS] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-13T16:19:47.973+05:30  INFO 20700 --- [POS] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-13T16:20:03.794+05:30  INFO 7156 --- [POS] [restartedMain] com.devstack.POS.PosApplication          : Starting PosApplication using Java 21.0.11 with PID 7156 (C:\Pasan\DevStack\POS\POS\target\classes started by User in C:\Pasan\DevStack\POS\POS)
+2026-06-13T16:20:03.796+05:30 DEBUG 7156 --- [POS] [restartedMain] com.devstack.POS.PosApplication          : Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-06-13T16:20:03.796+05:30  INFO 7156 --- [POS] [restartedMain] com.devstack.POS.PosApplication          : The following 1 profile is active: "dev"
+2026-06-13T16:20:03.831+05:30  INFO 7156 --- [POS] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-13T16:20:03.832+05:30  INFO 7156 --- [POS] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-13T16:20:04.303+05:30  INFO 7156 --- [POS] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-13T16:20:04.347+05:30  INFO 7156 --- [POS] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 4 JPA repository interfaces.
+2026-06-13T16:20:04.718+05:30  INFO 7156 --- [POS] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-06-13T16:20:04.731+05:30  INFO 7156 --- [POS] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-13T16:20:04.731+05:30  INFO 7156 --- [POS] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-13T16:20:04.763+05:30  INFO 7156 --- [POS] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 931 ms
+2026-06-13T16:20:04.887+05:30  INFO 7156 --- [POS] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-13T16:20:04.967+05:30  INFO 7156 --- [POS] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-13T16:20:05.358+05:30  INFO 7156 --- [POS] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-13T16:20:05.386+05:30  INFO 7156 --- [POS] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-13T16:20:05.743+05:30  INFO 7156 --- [POS] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ade736a
+2026-06-13T16:20:05.745+05:30  INFO 7156 --- [POS] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-13T16:20:05.791+05:30  WARN 7156 --- [POS] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-13T16:20:05.808+05:30  INFO 7156 --- [POS] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [jdbc:mysql://localhost:3306/test_pos?createDatabaseIfNotExist=true]
 	Database driver: MySQL Connector/J
 	Database dialect: MySQLDialect
@@ -28,13 +36,136 @@
 	Pool: DataSourceConnectionProvider
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-06-12T10:38:16.810+05:30  INFO 13608 --- [POS] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-06-12T10:38:16.916+05:30  INFO 13608 --- [POS] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-06-12T10:38:16.982+05:30  INFO 13608 --- [POS] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-06-12T10:38:17.444+05:30  INFO 13608 --- [POS] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/api/v1'
-2026-06-12T10:38:17.448+05:30  INFO 13608 --- [POS] [restartedMain] com.devstack.POS.PosApplication          : Started PosApplication in 4.049 seconds (process running for 5.578)
-2026-06-12T10:49:33.035+05:30  INFO 13608 --- [POS] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-06-12T10:49:33.041+05:30  INFO 13608 --- [POS] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-06-12T10:49:33.044+05:30  INFO 13608 --- [POS] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-06-12T10:49:33.047+05:30  INFO 13608 --- [POS] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-06-12T10:49:33.052+05:30  INFO 13608 --- [POS] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-13T16:20:06.646+05:30  INFO 7156 --- [POS] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-13T16:20:06.703+05:30  INFO 7156 --- [POS] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-13T16:20:06.763+05:30  INFO 7156 --- [POS] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-13T16:20:07.300+05:30  INFO 7156 --- [POS] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/api/v1'
+2026-06-13T16:20:07.304+05:30  INFO 7156 --- [POS] [restartedMain] com.devstack.POS.PosApplication          : Started PosApplication in 3.894 seconds (process running for 5.725)
+2026-06-13T16:20:07.309+05:30  INFO 7156 --- [POS] [restartedMain] c.d.POS.helper.CustomerDataInitializer   : Starting customer data initialization...
+2026-06-13T16:20:07.461+05:30  INFO 7156 --- [POS] [restartedMain] c.d.POS.helper.CustomerDataInitializer   : Customer data initialization completed.
+2026-06-13T16:21:17.814+05:30  INFO 7156 --- [POS] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-13T16:21:17.818+05:30  INFO 7156 --- [POS] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-13T16:21:17.821+05:30  INFO 7156 --- [POS] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-13T16:21:17.824+05:30  INFO 7156 --- [POS] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-13T16:21:17.828+05:30  INFO 7156 --- [POS] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-13T16:21:22.548+05:30  INFO 3916 --- [POS] [restartedMain] com.devstack.POS.PosApplication          : Starting PosApplication using Java 21.0.11 with PID 3916 (C:\Pasan\DevStack\POS\POS\target\classes started by User in C:\Pasan\DevStack\POS\POS)
+2026-06-13T16:21:22.550+05:30 DEBUG 3916 --- [POS] [restartedMain] com.devstack.POS.PosApplication          : Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-06-13T16:21:22.550+05:30  INFO 3916 --- [POS] [restartedMain] com.devstack.POS.PosApplication          : The following 1 profile is active: "dev"
+2026-06-13T16:21:22.584+05:30  INFO 3916 --- [POS] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-13T16:21:22.584+05:30  INFO 3916 --- [POS] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-13T16:21:23.052+05:30  INFO 3916 --- [POS] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-13T16:21:23.094+05:30  INFO 3916 --- [POS] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 4 JPA repository interfaces.
+2026-06-13T16:21:23.432+05:30  INFO 3916 --- [POS] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-06-13T16:21:23.442+05:30  INFO 3916 --- [POS] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-13T16:21:23.443+05:30  INFO 3916 --- [POS] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-13T16:21:23.469+05:30  INFO 3916 --- [POS] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 884 ms
+2026-06-13T16:21:23.583+05:30  INFO 3916 --- [POS] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-13T16:21:23.616+05:30  INFO 3916 --- [POS] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-13T16:21:23.925+05:30  INFO 3916 --- [POS] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-13T16:21:23.945+05:30  INFO 3916 --- [POS] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-13T16:21:24.175+05:30  INFO 3916 --- [POS] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c930a4f
+2026-06-13T16:21:24.177+05:30  INFO 3916 --- [POS] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-13T16:21:24.215+05:30  WARN 3916 --- [POS] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-13T16:21:24.230+05:30  INFO 3916 --- [POS] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/test_pos?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: test_pos/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-13T16:21:24.931+05:30  INFO 3916 --- [POS] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-13T16:21:24.983+05:30  INFO 3916 --- [POS] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-13T16:21:25.038+05:30  INFO 3916 --- [POS] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-13T16:21:25.534+05:30  INFO 3916 --- [POS] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/api/v1'
+2026-06-13T16:21:25.538+05:30  INFO 3916 --- [POS] [restartedMain] com.devstack.POS.PosApplication          : Started PosApplication in 3.356 seconds (process running for 3.718)
+2026-06-13T16:21:25.540+05:30  INFO 3916 --- [POS] [restartedMain] c.d.POS.helper.CustomerDataInitializer   : Starting customer data initialization...
+2026-06-13T16:21:25.701+05:30  INFO 3916 --- [POS] [restartedMain] c.d.POS.helper.CustomerDataInitializer   : Customer data initialization completed.
+2026-06-13T16:21:48.091+05:30  INFO 3916 --- [POS] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-13T16:21:48.096+05:30  INFO 3916 --- [POS] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-13T16:21:48.098+05:30  INFO 3916 --- [POS] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-13T16:21:48.102+05:30  INFO 3916 --- [POS] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-13T16:21:48.105+05:30  INFO 3916 --- [POS] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-13T16:21:51.878+05:30  INFO 24352 --- [POS] [restartedMain] com.devstack.POS.PosApplication          : Starting PosApplication using Java 21.0.11 with PID 24352 (C:\Pasan\DevStack\POS\POS\target\classes started by User in C:\Pasan\DevStack\POS\POS)
+2026-06-13T16:21:51.879+05:30 DEBUG 24352 --- [POS] [restartedMain] com.devstack.POS.PosApplication          : Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-06-13T16:21:51.880+05:30  INFO 24352 --- [POS] [restartedMain] com.devstack.POS.PosApplication          : The following 1 profile is active: "dev"
+2026-06-13T16:21:51.914+05:30  INFO 24352 --- [POS] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-13T16:21:51.914+05:30  INFO 24352 --- [POS] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-13T16:21:52.339+05:30  INFO 24352 --- [POS] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-13T16:21:52.384+05:30  INFO 24352 --- [POS] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 4 JPA repository interfaces.
+2026-06-13T16:21:52.711+05:30  INFO 24352 --- [POS] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-06-13T16:21:52.721+05:30  INFO 24352 --- [POS] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-13T16:21:52.721+05:30  INFO 24352 --- [POS] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-13T16:21:52.749+05:30  INFO 24352 --- [POS] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 835 ms
+2026-06-13T16:21:52.868+05:30  INFO 24352 --- [POS] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-13T16:21:52.899+05:30  INFO 24352 --- [POS] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-13T16:21:53.214+05:30  INFO 24352 --- [POS] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-13T16:21:53.236+05:30  INFO 24352 --- [POS] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-13T16:21:53.470+05:30  INFO 24352 --- [POS] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46b442c
+2026-06-13T16:21:53.473+05:30  INFO 24352 --- [POS] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-13T16:21:53.508+05:30  WARN 24352 --- [POS] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-13T16:21:53.522+05:30  INFO 24352 --- [POS] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/test_pos?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: test_pos/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-13T16:21:54.209+05:30  INFO 24352 --- [POS] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-13T16:21:54.263+05:30  INFO 24352 --- [POS] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-13T16:21:54.315+05:30  INFO 24352 --- [POS] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-13T16:21:54.704+05:30  INFO 24352 --- [POS] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/api/v1'
+2026-06-13T16:21:54.708+05:30  INFO 24352 --- [POS] [restartedMain] com.devstack.POS.PosApplication          : Started PosApplication in 3.169 seconds (process running for 3.511)
+2026-06-13T16:21:54.712+05:30  INFO 24352 --- [POS] [restartedMain] c.d.POS.helper.CustomerDataInitializer   : Starting customer data initialization...
+2026-06-13T16:21:54.848+05:30  INFO 24352 --- [POS] [restartedMain] c.d.POS.helper.CustomerDataInitializer   : Customer data initialization completed.
+2026-06-13T16:51:43.021+05:30  INFO 24352 --- [POS] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-13T16:51:43.026+05:30  INFO 24352 --- [POS] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-13T16:51:43.029+05:30  INFO 24352 --- [POS] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-13T16:51:43.032+05:30  INFO 24352 --- [POS] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-13T16:51:43.035+05:30  INFO 24352 --- [POS] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-13T16:51:48.628+05:30  INFO 13072 --- [POS] [restartedMain] com.devstack.POS.PosApplication          : Starting PosApplication using Java 21.0.11 with PID 13072 (C:\Pasan\DevStack\POS\POS\target\classes started by User in C:\Pasan\DevStack\POS\POS)
+2026-06-13T16:51:48.629+05:30 DEBUG 13072 --- [POS] [restartedMain] com.devstack.POS.PosApplication          : Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-06-13T16:51:48.630+05:30  INFO 13072 --- [POS] [restartedMain] com.devstack.POS.PosApplication          : The following 1 profile is active: "dev"
+2026-06-13T16:51:48.670+05:30  INFO 13072 --- [POS] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-13T16:51:48.672+05:30  INFO 13072 --- [POS] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-13T16:51:49.178+05:30  INFO 13072 --- [POS] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-13T16:51:49.224+05:30  INFO 13072 --- [POS] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 4 JPA repository interfaces.
+2026-06-13T16:51:49.626+05:30  INFO 13072 --- [POS] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-06-13T16:51:49.638+05:30  INFO 13072 --- [POS] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-13T16:51:49.638+05:30  INFO 13072 --- [POS] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-13T16:51:49.672+05:30  INFO 13072 --- [POS] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1000 ms
+2026-06-13T16:51:49.805+05:30  INFO 13072 --- [POS] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-13T16:51:49.844+05:30  INFO 13072 --- [POS] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-13T16:51:50.208+05:30  INFO 13072 --- [POS] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-13T16:51:50.235+05:30  INFO 13072 --- [POS] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-13T16:51:50.489+05:30  INFO 13072 --- [POS] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1da0ce11
+2026-06-13T16:51:50.491+05:30  INFO 13072 --- [POS] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-13T16:51:50.531+05:30  WARN 13072 --- [POS] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-13T16:51:50.547+05:30  INFO 13072 --- [POS] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/test_pos?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: test_pos/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-13T16:51:51.332+05:30  INFO 13072 --- [POS] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-13T16:51:51.398+05:30  INFO 13072 --- [POS] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-13T16:51:51.461+05:30  INFO 13072 --- [POS] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-13T16:51:51.944+05:30  INFO 13072 --- [POS] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/api/v1'
+2026-06-13T16:51:51.949+05:30  INFO 13072 --- [POS] [restartedMain] com.devstack.POS.PosApplication          : Started PosApplication in 3.726 seconds (process running for 4.13)
+2026-06-13T16:51:51.952+05:30  INFO 13072 --- [POS] [restartedMain] c.d.POS.helper.CustomerDataInitializer   : Starting customer data initialization...
+2026-06-13T16:51:52.125+05:30  INFO 13072 --- [POS] [restartedMain] c.d.POS.helper.CustomerDataInitializer   : Customer data initialization completed.

@@ -6,7 +6,7 @@ import com.devstack.POS.dto.response.CustomerResponseDTO;
 import com.devstack.POS.entity.Customer;
 import org.springframework.stereotype.Component;
 
-import java.util.UUID;
+// import java.util.UUID;
 
 @Component
 public class CustomerMapper {
@@ -14,7 +14,7 @@ public class CustomerMapper {
     public Customer toCustomer(CustomerRequestDTO dto) {
         if (dto == null) throw new ValidationException("DTO Not Found");
         return Customer.builder()
-                .id(UUID.randomUUID())
+               // .id(UUID.randomUUID())
                 .name(dto.getName())
                 .address(dto.getAddress())
                 .salary(dto.getSalary())
