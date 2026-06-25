@@ -1,15 +1,15 @@
 ```mermaid
 erDiagram
-    OrderDetails {
-        UUID id
-        Integer qty
-        Double unitPrice
-    }
-
     CustomerOrder {
         UUID orderId
         LocalDate date
         double totalCost
+    }
+
+    OrderDetails {
+        UUID id
+        Integer qty
+        Double unitPrice
     }
 
     Product {
@@ -26,11 +26,11 @@ erDiagram
         double salary
     }
 
-    OrderDetails ||--|| CustomerOrder : "customerOrder"
-    OrderDetails ||--|| Product : "product"
-
     CustomerOrder ||--|| Customer : "customer"
     CustomerOrder ||--o{ OrderDetails : "detailsList"
+
+    OrderDetails ||--|| CustomerOrder : "customerOrder"
+    OrderDetails ||--|| Product : "product"
 
     Product ||--o{ OrderDetails : "detailsList"
 
