@@ -1,0 +1,2 @@
+[2026-06-30 00:44:36.224] - 26436 INFO [restartedMain] --- org.apache.catalina.core.StandardService: Starting service [Tomcat]
+[2026-06-30 00:44:36.232] - 26436 INFO [restartedMain] --- org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/11.0.21]
